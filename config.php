@@ -3,9 +3,9 @@ return array(
     'dns'       =>  array(
         'aliyun'    =>  array(
             'url'   =>  'https://alidns.aliyuncs.com/',
-            'key'   =>  'LTAItEVgA2NcDKpv',
-            'secret'=>  '1qfMwX05I8Hor9S4WLeq4gEZGHvAs2',
-            'method'=>  'get',
+            'key'   =>  'your key',
+            'secret'=>  'your secret',
+            'method'=>  'GET',
         ),
     ),
     'domain'    =>  array(
@@ -13,29 +13,14 @@ return array(
             'dns'   =>  'aliyun',
             'cdnName'=> array('www.pjcy.cn')
         ),
-        'test_pjcy_cn'   =>  array(
-            'dns'   =>  'aliyun',
-            'cdnName'=> array('test.pjcy.cn'),
-            'rootDomain'    =>'pjcy.cn'
-        ),
-        'test1_pjcy_cn'   =>  array(
-            'dns'   =>  'aliyun',
-            'cdnName'=> array('test1.pjcy.cn'),
-            'rootDomain'    =>'pjcy.cn'
-        ),
-        'test2_pjcy_cn'   =>  array(
-            'dns'   =>  'aliyun',
-            'cdnName'=> array('test2.pjcy.cn'),
-            'rootDomain'    =>'pjcy.cn'
-        ),
         'vippua_com'=>  array(
             'dns'   =>  'aliyun',
-            'cdnName'=> array('www.vippua.com'),
-            'rootDomain'    =>'pjcy.cn'
+            'cdnName'=> array('www.vippua.com', 'wanhui.vippua.com'),
+            'rootDomain'    =>'vippua_com'
         ),
         'puaok_com' =>  array(
             'dns'   =>  'aliyun',
-            'cdnName'=> array('www.puaok.com')
+            'cdnName'=> array('www.puaok.com', 'pd.puaok.com', 'love.puaok.com', 'm.puaok.com', 'i.puaok.com')
         ),
         'vippua_cn' =>  array(
             'dns'   =>  'aliyun',
