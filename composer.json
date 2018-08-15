@@ -1,0 +1,12 @@
+{
+    "name": "seanzhao/dnsalter",
+    "description": "alter dns record",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sean",
+            "email": "seanzhaome@gmail.com"
+        }
+    ],
+    "require": {}
+}
